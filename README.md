@@ -1,6 +1,7 @@
-# react-color-range
+# react-color-range &middot; [![](https://badgen.net/bundlephobia/minzip/react-color-range)](https://bundlephobia.com/package/react-color-range@0.1.0)
 
-# [react-color-range](https://javier.xyz/react-color-range/) &middot; [![](https://badgen.net/bundlephobia/minzip/react)](https://bundlephobia.com/package/react-color-range@0.1.0)
+Super tiny color input ranges for react. `react-color-range` leverages the
+native `input type="range"` to reduce the bundle size.
 
 ## Usage
 
