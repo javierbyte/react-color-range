@@ -1,0 +1,20 @@
+{
+  "name": "react-color-range",
+  "version": "0.1.5",
+  "description": "Super tiny color input ranges for react",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "keywords": [
+    "react",
+    "color",
+    "input",
+    "color",
+    "picker",
+    "react-component",
+    "colorpicker"
+  ],
+  "author": "Javier Bórquez <hi@javier.xyz>",
+  "license": "BSD-3-Clause"
+}
