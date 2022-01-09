@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-color-range-website/static/css/main.f87edeee.css",
+    "main.js": "/react-color-range-website/static/js/main.cdcfde8d.js",
+    "index.html": "/react-color-range-website/index.html",
+    "main.f87edeee.css.map": "/react-color-range-website/static/css/main.f87edeee.css.map",
+    "main.cdcfde8d.js.map": "/react-color-range-website/static/js/main.cdcfde8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f87edeee.css",
+    "static/js/main.cdcfde8d.js"
+  ]
+}
