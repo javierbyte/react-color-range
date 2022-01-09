@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-color-range/static/css/main.f87edeee.css",
-    "main.js": "/react-color-range/static/js/main.247e255b.js",
+    "main.css": "/react-color-range/static/css/main.d203b402.css",
+    "main.js": "/react-color-range/static/js/main.f3f03baf.js",
     "index.html": "/react-color-range/index.html",
-    "main.f87edeee.css.map": "/react-color-range/static/css/main.f87edeee.css.map",
-    "main.247e255b.js.map": "/react-color-range/static/js/main.247e255b.js.map"
+    "main.d203b402.css.map": "/react-color-range/static/css/main.d203b402.css.map",
+    "main.f3f03baf.js.map": "/react-color-range/static/js/main.f3f03baf.js.map"
   },
   "entrypoints": [
-    "static/css/main.f87edeee.css",
-    "static/js/main.247e255b.js"
+    "static/css/main.d203b402.css",
+    "static/js/main.f3f03baf.js"
   ]
 }

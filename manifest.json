@@ -1,6 +1,6 @@
 {
   "short_name": "React Color Range",
-  "name": "Super tiny color input ranges for React.",
+  "name": "Tiny color input for React, made with native input ranges.",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
