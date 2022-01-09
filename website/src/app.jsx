@@ -71,7 +71,7 @@ function App() {
         }}
       >
         <TextGradient
-          text={`Berlin, México, Guadalajara, Los Mochis, México, 東京, 大阪市, 서울`}
+          text={`Berlin, México, Guadalajara, Los Mochis, दिल्ली, 東京, 大阪市, 서울`}
           fromColor={color}
           toColor={colorB}
           direction="right"
