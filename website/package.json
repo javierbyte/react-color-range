@@ -1,6 +1,6 @@
 {
   "name": "react-color-range-website",
-  "description": "Super tiny color input ranges for React.",
+  "description": "Tiny color input for React, made with native input ranges.",
   "version": "1.0.0",
   "private": true,
   "homepage": "https://javier.xyz/react-color-range/",

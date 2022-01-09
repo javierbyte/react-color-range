@@ -27,15 +27,15 @@ const exampleCode = `
 import { HueSelector } from 'react-color-range';
 import 'react-color-range/style.css';
 
-[...]
-
-// with hex colors
+// Value accepts hex and hsl colors
 <HueSelector
-  value={colorHex}
+  value={colorHex} // hex color or hsl value (with percentages)
   onChange={color => {
-    changeColorHook(color.hex);
+    changeColorHook(color.hex); // or \`color.hsl\`
   }}
 />
+
+// \`SaturationSelector\` and \`LuminositySelector\` use the same props.
 `.trim();
 
 function App() {
@@ -48,10 +48,15 @@ function App() {
       <MainHeader>react color range</MainHeader>
       <Space h={1} />
       <Text>
-        Super tiny HSL-first color input ranges for React, leverages the native
-        input type "range" to reduce the bundle size.{' '}
+        Tiny color selector components for React. Made using native input ranges
+        and CSS gradients.
         <img
-          style={{ display: 'inline-block', verticalAlign: `middle` }}
+          style={{
+            display: 'inline-block',
+            verticalAlign: `middle`,
+            top: -2,
+            marginLeft: 2,
+          }}
           src="https://badgen.net/bundlephobia/minzip/react-color-range"
         />
       </Text>
@@ -157,6 +162,8 @@ function App() {
       </Inline>
       <Space h={4} />
       <Text>How to use:</Text>
+      <Space h={1} />
+      <CodeSnippet>{`npm i react-color-range`}</CodeSnippet>
       <Space h={1} />
       <CodeSnippet>{exampleCode}</CodeSnippet>
       <Space h={2} />

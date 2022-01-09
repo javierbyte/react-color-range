@@ -1,7 +1,10 @@
 # react-color-range &middot; [![](https://badgen.net/bundlephobia/minzip/react-color-range@latest)](https://bundlephobia.com/package/react-color-range)
 
-Super tiny color input ranges for react. `react-color-range` leverages the
-native `input type="range"` and CSS linear gradients to reduce the bundle size.
+Tiny color input for React, made with native input ranges. `react-color-range`
+leverages the native `input type="range"` and CSS linear gradients to reduce the
+bundle size.
+
+[![react-blur](./website/public/react-color-range.jpg)](https://javier.xyz/react-color-range/)
 
 ## Usage
 
@@ -15,7 +18,7 @@ import 'react-color-range/style.css';
 <HueSelector
   value={colorHex}
   onChange={color => {
-    changeColorHook(color.hex);
+    changeColorHook(color.hex); // also `color.hsl`, `color.h`, `color.s` and `color.l`
   }}
 />
 
