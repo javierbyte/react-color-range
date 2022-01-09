@@ -31,7 +31,7 @@ function Selector({ value, type, onChange, style, ...other }) {
     onChange: (e) => {
       if (!onChange) return;
 
-      hsl[type] = e.target.value;
+      hsl[type] = parseInt(e.target.value, 10);
 
       onChange({
         hex: hslToHex(hsl.h, hsl.s, hsl.l),
@@ -41,9 +41,7 @@ function Selector({ value, type, onChange, style, ...other }) {
     },
     type: 'range',
     className: `jb-color-picker -${type}`,
-    min: 0,
     max: props[type].max,
-    step: 1,
     style: elStyle,
     ...other,
   });

@@ -1,11 +1,11 @@
-# react-color-range &middot; [![](https://badgen.net/bundlephobia/minzip/react-color-range)](https://bundlephobia.com/package/react-color-range)
+# react-color-range &middot; [![](https://badgen.net/bundlephobia/minzip/react-color-range@latest)](https://bundlephobia.com/package/react-color-range)
 
 Super tiny color input ranges for react. `react-color-range` leverages the
-native `input type="range"` to reduce the bundle size.
+native `input type="range"` and CSS linear gradients to reduce the bundle size.
 
 ## Usage
 
-```
+```jsx
 import { HueSelector } from 'react-color-range';
 import 'react-color-range/style.css';
 
