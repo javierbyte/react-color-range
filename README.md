@@ -37,15 +37,16 @@ import 'react-color-range/style.css';
 />
 ```
 
-Each of the three components accept the following props:
+Each of the three components accepts the following props:
 
-- `value`: Either a 6 character hex color (example: `#FFFFFF`) or hsl color
-  expressed with degrees for hue and percentages for saturation and luminosity
-  (example: `hsl(0, 100%, 50%)`). Please note that using hsl colors as the
-  source is preferred to prevent color resolution lost on high and low
+- `value`: Either a hex color (example: `#FFFFFF`) or hsl color expressed with
+  degrees for hue and percentages for saturation and luminosity separated by
+  commas (example: `hsl(0, 100%, 50%)`). Please note that using hsl colors as
+  the source is preferred to prevent color resolution lost on high and low
   luminosities.
 - `onChange`: Function that will return an object when the color is changed.
   - On change response: And object with the following properties:
-    - `hsl`: New hsl color
-    - `hex`: New hex color
-    - `h`, `s`, `l`: components of the hsl color
+    - `hsl`: String. New hsl color
+    - `hex`: String. New hex color
+    - `h`, `s`, `l`: Int. Hue, saturation and luminosity, components of the hsl
+      color

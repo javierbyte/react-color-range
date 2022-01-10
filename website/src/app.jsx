@@ -50,14 +50,15 @@ function App() {
       <Text>
         Tiny color selector components for React. Made using native input ranges
         and CSS gradients.
-        <img
+        <a
+          href="https://bundlephobia.com/package/react-color-range@latest"
           style={{
             display: 'inline-block',
-            verticalAlign: `middle`,
-            top: -2,
-            marginLeft: 2,
+            verticalAlign: 'middle',
+            height: 32,
+            width: 140,
+            background: `url(https://badgen.net/bundlephobia/minzip/react-color-range) no-repeat center`,
           }}
-          src="https://badgen.net/bundlephobia/minzip/react-color-range"
         />
       </Text>
       <Space h={1} />
@@ -71,7 +72,7 @@ function App() {
         }}
       >
         <TextGradient
-          text={`Berlin, México, Guadalajara, Los Mochis, México, 東京, 大阪市, 서울`}
+          text={`Berlin, México, Guadalajara, Los Mochis, 東京, 大阪市, 서울`}
           fromColor={color}
           toColor={colorB}
           direction="right"

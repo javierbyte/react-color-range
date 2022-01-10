@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 export function TextGradient({ text, ...other }) {
-  const [isWebkit, isWebkitSet] = useState(null);
+  const [isWebkit, isWebkitSet] = useState(true);
 
   useEffect(() => {
     const isWebkit = 'WebkitTextFillColor' in document.documentElement.style;
@@ -12,10 +12,8 @@ export function TextGradient({ text, ...other }) {
 
   if (isWebkit === true) {
     return <TextGradientWebkit text={text} {...other} />;
-  } else if (isWebkit === false) {
-    return <TextGradientNonWebkit text={text} {...other} />;
   } else {
-    return <span style={{ color: other.fromColor }}>{text}</span>;
+    return <TextGradientNonWebkit text={text} {...other} />;
   }
 }
 

@@ -17,7 +17,7 @@ const props = {
   },
 };
 
-function Selector({ value, type, onChange, style, ...other }) {
+function Selector({ value = '', type, onChange, style, ...other }) {
   const { h, s, l } = value.includes(`#`) ? hexToHsl(value) : parseHsl(value);
   let hsl = { h, s, l };
 
