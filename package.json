@@ -1,6 +1,6 @@
 {
   "name": "react-color-range",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "description": "Super tiny color input ranges for react",
   "main": "index.js",
   "peerDependencies": {

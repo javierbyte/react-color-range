@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import { useState } from 'react';
 import {
   HueSelector,
@@ -11,7 +9,6 @@ import 'react-color-range/style.css';
 import { TextGradient } from './TextGradient.jsx';
 
 import {
-  JBX,
   MainHeader,
   Text,
   Space,
@@ -44,7 +41,6 @@ function App() {
 
   return (
     <Container>
-      <JBX accent={'#bdc3c7'} />
       <MainHeader>react color range</MainHeader>
       <Space h={1} />
       <Text>

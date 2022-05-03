@@ -4,6 +4,10 @@ import { hslToHex, hexToHsl, parseHsl } from './lib/color-utils.js';
 const props = {
   h: {
     max: 359,
+    bg: () =>
+      `linear-gradient(90deg, ${new Array(12 + 1)
+        .fill()
+        .map((e, i) => `hsl(${i * (360 / 12)}deg, 100%, 50%)`)})`,
   },
   s: {
     bg: (h, s) =>
@@ -20,11 +24,7 @@ const props = {
 function Selector({ value = '', type, onChange, style, ...other }) {
   const { h, s, l } = value.includes(`#`) ? hexToHsl(value) : parseHsl(value);
   let hsl = { h, s, l };
-
-  let elStyle = { ...style };
-  if (props[type].bg) {
-    elStyle.background = props[type].bg(h, s);
-  }
+  let elStyle = { ...style, background: props[type].bg(h, s) };
 
   return createElement('input', {
     value: other[type] || hsl[type],
@@ -40,7 +40,7 @@ function Selector({ value = '', type, onChange, style, ...other }) {
       });
     },
     type: 'range',
-    className: `jb-color-picker -${type}`,
+    className: `jb-color-picker`,
     max: props[type].max,
     style: elStyle,
     ...other,

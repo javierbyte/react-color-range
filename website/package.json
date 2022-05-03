@@ -5,14 +5,11 @@
   "private": true,
   "homepage": "https://javier.xyz/react-color-range/",
   "dependencies": {
-    "capsize": "^2.0.0",
-    "jbx": "^1.7.6",
-    "react": "^17.0.2",
-    "react-color-range": "^0.2.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.0",
-    "react-textgradient": "0.0.2",
-    "styled-components": "^5.3.3"
+    "jbx": "^2.3.0",
+    "react": "^18.1.0",
+    "react-color-range": "^0.2.5",
+    "react-dom": "^18.1.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/javierbyte/react-color-range-website"
+    "url": "https://github.com/javierbyte/react-color-range"
   },
   "author": "Javier Bórquez <hi@javier.xyz>",
   "license": "BSD-3-Clause",

@@ -6,18 +6,6 @@
   appearance: none;
   -webkit-appearance: none;
 }
-.jb-color-picker.-h {
-  background: linear-gradient(
-    90deg,
-    #ff0000,
-    #ffff00,
-    #00ff00,
-    #00ffff,
-    #0000ff,
-    #ff00ff,
-    #ff0000
-  );
-}
 .jb-color-picker::-webkit-slider-thumb {
   border-radius: 1px;
   -webkit-appearance: none;
@@ -36,7 +24,5 @@
   box-shadow: #0004 0 0 6px;
   background: transparent;
   backdrop-filter: blur(4px);
-}
-.jb-color-picker::-webkit-slider-runnable-track {
-  -webkit-appearance: none;
+  appearance: none;
 }
